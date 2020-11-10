@@ -28,4 +28,9 @@ public class Controller {
     public String hello() {
         return "hello springboot";
     }
+
+    @GetMapping("jacoco")
+    public String hiJacoco() {
+        return "hi jacoco";
+    }
 }
