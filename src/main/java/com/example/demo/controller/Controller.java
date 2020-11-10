@@ -29,7 +29,7 @@ public class Controller {
         return "hello springboot";
     }
 
-    @GetMapping("jacoco")
+    @GetMapping("/jacoco")
     public String hiJacoco() {
         return "hi jacoco";
     }
