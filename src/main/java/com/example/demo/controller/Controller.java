@@ -33,4 +33,9 @@ public class Controller {
     public String hiJacoco() {
         return "hi jacoco";
     }
+
+    @GetMapping("/dear")
+    public String dear() {
+        return "hi dear";
+    }
 }
